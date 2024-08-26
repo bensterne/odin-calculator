@@ -1,0 +1,75 @@
+@font-face {
+    font-family: digital-clock;
+    src: url(TickingTimebombBB.ttf);
+  }
+
+body{
+    display:flex;
+    justify-content: center;
+    padding-top:32px;
+    border-radius:3px;
+}
+#calc{
+    width:300px;
+    background-color: #b5b3aa;
+    padding:16px 0px;
+    border-radius:3px;
+}
+
+#button-area{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius:3px;
+}
+#display{
+    background-color: #242424;
+    color:white;
+    font-size:54px;
+    font-family: "digital-clock", monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding:12px 16px;
+    text-align:right;
+    margin-top:0px ;
+    margin-bottom:16px;
+}
+
+button{
+    height:60px;
+    width:60px;
+    margin:4px 2px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size:20px;
+    text-align: left;
+    padding-bottom:24px;
+    padding-left:12px;
+    border-radius:4px;
+    border:none;
+}
+
+.top-button{
+    background-color: #e4e2d8;
+    color:#656565
+}
+.number {
+    background-color: #444444;
+    color:white;   
+}
+
+.right-button{
+    background-color: #f4f2ea;
+    color:#656565;
+}
+
+#btn0{
+    width:130px;
+}
+
+#equals{
+    background-color: orangered;
+    color:white; 
+}
